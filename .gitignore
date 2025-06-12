@@ -1,0 +1,58 @@
+.env
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production dependencies
+# /node_modules
+
+# Distribution and build files
+/dist/
+/build/
+/tmp/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.net
+*.sock
+
+# Environment variables
+.env
+.env.production
+.env.development.local
+.env.test.local
+.env.local
+
+# Optional: TypeScript output (if you only commit .ts files)
+# Make sure these are only for compiled files, not actual source .js files
+*.js
+*.d.ts
+# /dist/ is often used for compiled JS instead
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp
+.classpath
+.project
+.settings/
+
+# Coverage reports
+coverage/
+
+# Misc
+.npm/
+.c9/
